@@ -36,7 +36,7 @@ List all Brands
     
 Retrieve Brand
 
-    response = Giftbit::Brand.show(id: 'brand_code')
+    response = Giftbit::Brand.find(id: 'brand_code')
     
 #### Region
 
