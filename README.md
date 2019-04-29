@@ -36,7 +36,7 @@ List all Brands
     
 Retrieve Brand
 
-    response = Giftbit::Brand.show(id: 'brand_code')
+    response = Giftbit::Brand.find(id: 'brand_code')
     
 #### Region
 
@@ -146,7 +146,7 @@ Using uuid
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/fakhir-shad/giftbit-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/fakhir-shad/giftbit. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
