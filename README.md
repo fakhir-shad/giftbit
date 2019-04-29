@@ -81,6 +81,21 @@ Using uuid
 
     response = Giftbit::Campaign.find(uuid: 'campaign_uuid')
     
+#### Embedded
+
+Create Embedded Gift (params can be found [here](https://www.giftbit.com/giftbitapi/#/reference/1/embedded/create-embedded-gift))
+
+    response = Giftbit::Embedded.create({
+                                          
+                                          "contact": {
+                                                        "firstname": "Perry",
+                                                        "lastname": "Johnson",
+                                                        "email": "pjohnson@giftbit.com"
+                                                      },
+                                          "price_in_cents": 5000,
+                                          "brand_code": "itunesus",
+                                          "id": "clientProvidedGiftId_abc123"})
+
 #### Funds
 
 Retrieve funding information
